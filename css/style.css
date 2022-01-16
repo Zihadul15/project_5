@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0PX;
+}
+/*  header section 
+
+
+*/
+body h1 h2 h3 h4 h5 h6{
+    font-family: 'Rubik', sans-serif;
+}
+/*  header section 
+*/
+header{
+    width: 100%;
+    padding: 15px 0px;
+    border: 2px solid #eee;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header_sectin{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    flex-basis: 50%;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+}
+a{
+    text-decoration: none;
+}
+/* banner css */
+.baner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.baner_content{
+    text-align: center;
+}
+.baner_content h1{
+    color: black;
+    font-size: 42px;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+.baner_content p{
+font-weight: 300;
+margin-bottom: 16px;
+width:650px;
+margin: auto;
+font-size: 17px;
+}
+
+.baner_content span{
+    color: blue;
+    margin-bottom: 32px;
+}
+/* project css */
+.project{
+    width: 100%;
+    margin: 40px 0px;
+}
+.about_project{
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right{
+    flex-basis: 50%;
+}
+.left{
+    text-align: right;
+    margin-right: 16px;
+}
+.right{
+    text-align: left;
+    margin-left: 16px;
+    font-size: 25px;
+    color: #575189;
+}
+.left h2{
+    font-size: 42px;
+    color: tomato;
+    margin-bottom: 16px;
+}
+.left p{
+    font-weight:50;
+    margin-bottom: 32px;
+    line-height:30px;
+}
+/* service css */
+#service{
+     width: 100%;
+     padding: 40px 0px;
+}
+.service_content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.service_item{
+    margin: 16px;
+    padding: 20px;
+}
+.service_item h4{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+.service_item p{
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.one{
+    background-color: #FDEBED;
+}
+.two{
+    background-color: #BEB7D8;
+}
+.three{
+    background-color: #7C89A3;
+}
+footer{
+    background-color: blue;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer_item ul li {
+  list-style: none;;
+   display: inline-block;
+   margin: 0px 16px;
+
+}  
+.footer_item ul li a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: #47c4ff;
+    color: white;
+    border-radius: 100%;
+    transition: .2s;
+}
+.footer_item ul li a:hover{
+    transform: rotate(360deg);
+    transition: .2s;
+}
